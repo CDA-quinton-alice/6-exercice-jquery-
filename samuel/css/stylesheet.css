@@ -1,0 +1,48 @@
+#drapeauF1{
+    border:1px solid black;
+    height:10em;
+}
+#drapeauF2{
+    border:1px solid black;
+    height:10em;
+    
+}
+#drapeauF3{
+    border:1px solid black;
+    height:10em;
+    
+}
+#drapeauB1{
+    border:1px solid black;
+    height:10em;
+}
+#drapeauB2{
+    border:1px solid black;
+    height:10em;
+    
+}
+#drapeauB3{
+    border:1px solid black;
+    height:10em;
+    
+}
+
+.milieu2{
+    display: none;
+}
+
+.blanc{
+    background-color:white;
+}
+.rouge{
+    background-color: #EF4135;
+}
+.bleu{
+    background-color: #0055A4;
+}
+.noir{
+    background-color: black;
+}
+.jaune{
+    background-color: #FDDA24;
+}
