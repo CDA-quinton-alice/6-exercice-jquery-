@@ -26,12 +26,8 @@ body, html {
     border-right: 1px solid #222222;
 }
 
-.milieu {
-}
-
 .container-drapeau {
     display: flex;
-    background-color: darkkhaki;
     margin-top: 100px;
 }
 
@@ -50,6 +46,10 @@ body, html {
 
 #drapeauF3{
     background-color: red;
+}
+
+.blanc {
+    background-color: white;
 }
 
 .bas {
