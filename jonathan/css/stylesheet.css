@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+    background: linear-gradient(135deg, #414345 0%, #232526 100%);
+}
+
+.haut {
+    display: flex;
+    background: linear-gradient(180deg, #414345 0%, #232526 100%);
+    border-radius: 1px;
+    margin-top: 20px;
+}
+
+#essaieTxt, #countEssaie, #tempsTxt, #timer, #cliqueTxt, #cliqueCount {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font: 400 1em/2em "Poppins", sans-serif;
+}
+
+#countEssaie, #timer, #cliqueCount {
+    font: 600 1em/2em "Poppins", sans-serif;
+}
+
+#minuteur {
+    border-left: 1px solid #222222;
+    border-right: 1px solid #222222;
+}
+
+.milieu {
+}
+
+.container-drapeau {
+    display: flex;
+    background-color: darkkhaki;
+    margin-top: 100px;
+}
+
+.drapeau {
+    width: 200px;
+    height: 300px;
+}
+
+#drapeauF1{
+    background-color: blue;
+}
+
+#drapeauF2{
+    background-color:white;
+}
+
+#drapeauF3{
+    background-color: red;
+}
+
+.bas {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.milieu2{
+    display: none;
+}
