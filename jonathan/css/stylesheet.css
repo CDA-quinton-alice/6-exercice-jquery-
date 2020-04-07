@@ -37,20 +37,17 @@ body, html {
 }
 
 #drapeauF1{
-    background-color: blue;
+    
 }
 
 #drapeauF2{
-    background-color:white;
+    
 }
 
 #drapeauF3{
-    background-color: red;
+    
 }
 
-.blanc {
-    background-color: white;
-}
 
 .bas {
     display: flex;
@@ -65,4 +62,19 @@ body, html {
 
 .milieu2{
     display: none;
+}
+.blanc{
+    background-color:white;
+}
+.rouge{
+    background-color: #EF4135;
+}
+.bleu{
+    background-color: #0055A4;
+}
+.noir{
+    background-color: black;
+}
+.jaune{
+    background-color: #FDDA24;
 }

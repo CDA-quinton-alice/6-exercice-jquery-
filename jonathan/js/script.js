@@ -61,6 +61,7 @@ $("#verif").click(function(){
             if($(db1).hasClass("noir") && $(db2).hasClass("jaune") && $(db3).hasClass("rouge")){
                 alert("ok");
             }else{
+                
                 alert("ko");
             }
         }else{
