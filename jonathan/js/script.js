@@ -65,8 +65,12 @@ $("#verif").click(function(){
                 alert("ko");
             }
         }else{
+<<<<<<< HEAD
+            $(".milieu2").css("display","inline");
+=======
             $(".milieu2").css("display","block");
             $("html").css({height: "100%"});
+>>>>>>> fdbcfbb9f4c25c290441171dea66e88991cc592f
         }
     }
 
