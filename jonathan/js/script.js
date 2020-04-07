@@ -6,6 +6,10 @@ var db1 = "#drapeauB1";
 var db2 = "#drapeauB2";
 var db3 = "#drapeauB3";
 
+var di1 = "#drapeauI1";
+var di2 = "#drapeauI2";
+var di3 = "#drapeauI3";
+
 var tempsEcoule = 0;
 
 $(document).ready(function(){
@@ -15,6 +19,9 @@ $(document).ready(function(){
     $(db1).addClass("jaune");
     $(db2).addClass("jaune");
     $(db3).addClass("jaune");
+    $(di1).addClass("blanc");
+    $(di2).addClass("blanc");
+    $(di3).addClass("blanc");
 
     changeColorF(df1);
     changeColorF(df2);
@@ -50,6 +57,20 @@ function changeColorB(zone){
         }else if($(zone).hasClass('noir')){
             $(this).removeClass('noir');
             $(this).addClass('jaune');
+        }
+    })
+}
+function changeColorI(zone){
+    $(zone).click(function(){
+        if($(zone).hasClass('blanc')){
+            $(this).removeClass('blanc');
+            $(this).addClass('rouge');
+        }else if($(zone).hasClass('rouge')){
+            $(this).removeClass('rouge');
+            $(this).addClass('vert');
+        }else if($(zone).hasClass('vert')){
+            $(this).removeClass('vert');
+            $(this).addClass('blanc');
         }
     })
 }

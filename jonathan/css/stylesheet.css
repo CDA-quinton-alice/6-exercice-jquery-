@@ -65,7 +65,13 @@ body, html {
     justify-content: center;
 }
 
+.milieu2{
+    display: none;
+}
 
+.vert{
+    background-color: #008c45 ;
+}
 .blanc{
     background-color:white;
 }
