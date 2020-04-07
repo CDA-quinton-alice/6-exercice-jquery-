@@ -37,7 +37,7 @@ $(document).ready(function(){
     changeColor(di3,"blanc","rouge","vert");
     getClick(drapeaux);
 
-    $(drapeaux).one("click",chrono());
+    $(drapeaux).one("click",chrono);
 
 
 });
