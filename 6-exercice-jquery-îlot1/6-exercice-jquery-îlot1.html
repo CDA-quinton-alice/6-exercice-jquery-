@@ -1,15 +1,76 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeu des Drapeaux</title>
-    <link rel="stylesheet" href="6-exercice-jquery-îlot1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/6-exercice-jquery-îlot1.css">
+    <title>Jeux des drapeaux</title>
 </head>
 <body>
-  
-    
-    <script src="6-exercice-jquery-îlot1.js"></script>
-    <script src="jquery-3.4.1.min.js"></script>
+    <div class="container-fluid">
+
+        <div class="haut">
+            <div class="col-sm-4 essaie">
+                <div>
+                    <h6 id="essaieTxt">Essai(s)</h6>
+                </div>
+                <div>
+                    <h5 id="countEssaie">0</h5>
+                </div>
+            </div>
+            <div class="col-sm-4" id="minuteur">
+                <div>
+                    <h6 id="tempsTxt">Temps</h6>
+                </div>
+                <div>
+                    <h5 id="timer">00 : 00</h5>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div>
+                    <h6 id="cliqueTxt">Clique(s)</h6>
+                </div>
+                <div>
+                    <h5 id="cliqueCount">0</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="milieu">
+            <div class="container-drapeau">
+                <div id="drapeauF1" class="drapeau col-sm-4"></div>
+                <div id="drapeauF2" class="drapeau col-sm-4"></div>
+                <div id="drapeauF3" class="drapeau col-sm-4"></div>
+            </div>
+        </div>
+
+        <div class="milieu2">
+            <div class="container-drapeau">
+                <div id="drapeauB1" class="drapeau col-sm-4"></div>
+                <div id="drapeauB2" class="drapeau col-sm-4"></div>
+                <div id="drapeauB3" class="drapeau col-sm-4"></div>
+            </div>
+        </div>
+
+        
+        <div class="milieu3">
+            <div class="container-drapeau">
+                <div id="drapeauI1" class="drapeau col-sm-4"></div>
+                <div id="drapeauI2" class="drapeau col-sm-4"></div>
+                <div id="drapeauI3" class="drapeau col-sm-4"></div>
+            </div>
+        </div>
+
+        <div class="bas">
+            <div class="button">
+                <button id="verif" type="submit" class="col-sm">Valider</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/6-exercice-jquery-îlot1.js"></script>
 </body>
 </html>
