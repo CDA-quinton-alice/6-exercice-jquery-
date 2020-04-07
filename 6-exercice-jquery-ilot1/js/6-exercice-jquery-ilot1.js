@@ -12,7 +12,7 @@ var di3 = "#drapeauI3";
 
 var nbDrapeauTrouve = "#countEssaie";
 var drapeaux = ".container-drapeau";
-var decompte = 0;
+
 var tempsEcoule = 0;
 
 $(document).ready(function(){
@@ -37,7 +37,7 @@ $(document).ready(function(){
     changeColor(di3,"blanc","rouge","vert");
     getClick(drapeaux);
 
-    $(drapeaux).one("click",chrono);
+    $("body").one("click",chrono);
 
 
 });
@@ -196,7 +196,9 @@ function chrono() {
 		tempsEcoule += 1;
 	}, 1000);
 }
-
+function stopCompteur(){
+    clearInterval(decompte);
+}
 // padding chrono
 function ajouteUnZero(nombre) {
 	if (nombre < 10) {
