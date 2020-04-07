@@ -53,6 +53,7 @@ body, html {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    background: linear-gradient(135deg, #414345 0%, #232526 100%);
 }
 
 .button {
@@ -60,9 +61,7 @@ body, html {
     justify-content: center;
 }
 
-.milieu2{
-    display: none;
-}
+
 .blanc{
     background-color:white;
 }
