@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    background: linear-gradient(135deg, #414345 0%, #232526 100%);
+    background: #222222;
 }
 
 .haut {
@@ -53,7 +53,11 @@ body, html {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+<<<<<<< HEAD
     background: linear-gradient(135deg, #414345 0%, #232526 100%);
+=======
+    margin-bottom: 50px;
+>>>>>>> fdbcfbb9f4c25c290441171dea66e88991cc592f
 }
 
 .button {

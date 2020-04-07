@@ -26,11 +26,29 @@
     height:10em;
     
 }
+#drapeauI1{
+    border:1px solid black;
+    height:10em;
+}
+#drapeauI2{
+    border:1px solid black;
+    height:10em;
+}
+#drapeauI3{
+    border:1px solid black;
+    height:10em;
+}
 
 .milieu2{
     display: none;
 }
+.milieu3{
+    display:none;
+}
 
+.vert{
+    background-color: #008c45 ;
+}
 .blanc{
     background-color:white;
 }

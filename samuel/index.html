@@ -7,18 +7,40 @@
     <link rel="stylesheet" href="./css/stylesheet.css">
     <title>Document</title>
 </head>
-<body>
-<div class="milieu pl-5 pt-5 row">
-    <div id="drapeauF1" class="col"></div>
-    <div id="drapeauF2" class="col"></div>
-    <div id="drapeauF3" class="col"></div>
+<body> 
+    <div class="col-sm-4" id="minuteur">
+        <div>
+            <h6 id="tempsTxt">Temps</h6>
+        </div>
+        <div>
+            <h5 id="timer">00 : 00</h5>
+        </div>
+</div>
+<label for="countEssaie">Drapeau(x) trouvé(s) : </label><span name="countEssaie" id="countEssaie">0</span>
+<label for="cliqueCount">Nombre d'essai(s) : </label><span name="cliqueCount" id="cliqueCount">0</span>
+<div class="container-drapeau">
+    <div class="milieu pl-5 pt-5 row">
+        <div id="drapeauF1" class="col"></div>
+        <div id="drapeauF2" class="col"></div>
+        <div id="drapeauF3" class="col"></div>
+    </div>
 </div>   
+<div class="container-drapeau">
+    <div class="milieu2 pl-5 pt-5 row">
+        <div id="drapeauB1" class="col"></div>
+        <div id="drapeauB2" class="col"></div>
+        <div id="drapeauB3" class="col"></div>
+    </div> 
+</div>
+<div class="container-drapeau">
+    <div class="milieu3 pl-5 pt-5 row">
+        <div id="drapeauI1" class="col"></div>
+        <div id="drapeauI2" class="col"></div>
+        <div id="drapeauI3" class="col"></div>
+    </div> 
+</div>
+  
 
-<div class="milieu2 pl-5 pt-5 row">
-    <div id="drapeauB1" class="col"></div>
-    <div id="drapeauB2" class="col"></div>
-    <div id="drapeauB3" class="col"></div>
-</div>   
 <div class="row">
     <div class="col-10"></div>
     <button id="verif" class="col-1">VALIDER</button> 
