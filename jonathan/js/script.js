@@ -65,7 +65,8 @@ $("#verif").click(function(){
                 alert("ko");
             }
         }else{
-            $(".milieu2").css("display","flex");
+            $(".milieu2").css("display","block");
+            $("html").css({height: "100%"});
         }
     }
 
